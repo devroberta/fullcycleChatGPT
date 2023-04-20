@@ -3,7 +3,7 @@ package gateway
 import (
 	"context"
 
-	"github.com/devroberta/fullcycleChatGPT/internal/domain/entity"
+	"github.com/devroberta/fullcycleChatGPT/chatservice/internal/domain/entity"
 )
 
 type ChatGateway interface {

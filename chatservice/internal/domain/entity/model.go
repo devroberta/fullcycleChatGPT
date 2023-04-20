@@ -11,3 +11,11 @@ func NewModel(name string, maxTokens int) *Model {
 		MaxTokens: maxTokens,
 	}
 }
+
+func (m *Model) GetMaxTokens() int {
+	return m.MaxTokens
+}
+
+func (m *Model) GetModelName() string {
+	return m.Name
+}
